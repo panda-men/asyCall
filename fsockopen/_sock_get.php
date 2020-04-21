@@ -1,6 +1,12 @@
 <?php
 
-// 远程GET请求（不获取内容）函数
+/**
+ * 远程GET请求（不获取内容）函数
+ * @param string $host 域名
+ * @param string $url 路径
+ * @param array $param 传输数据
+ * @return array 返回error_code
+ */
 function _sock_get($host, $url, $param)
 {
     $port = parse_url($url, PHP_URL_PORT);//获取端口
