@@ -1,0 +1,1 @@
+test.com/fsockopen/d.phptest.com/fsockopen/_sock_get.phpthis is a test
