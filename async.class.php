@@ -3,7 +3,7 @@
 /**
  * 异步实现类
  */
-class async
+class Async
 {
 
     public function __construct()
